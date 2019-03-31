@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2050
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unit Tests", "Unit Tests", "{32B3C17D-F31B-4881-9B07-D3C9D51326AB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculos", "Calculos\Calculos.csproj", "{588B2A6B-998E-4C8C-A0C0-BB075DF08FA3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TDD - BDD", "TDD - BDD", "{380E13BA-4E48-4D95-B7F5-2044E9D079D0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Banco.Domain", "Banco.Domain\Banco.Domain.csproj", "{FCC5F284-27DB-4C89-9A33-A20333F2BB68}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Banco.Domain.Tests", "Banco.Domain.Tests\Banco.Domain.Tests.csproj", "{8B015052-E887-4BC3-A1BD-316AFED45797}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Banco.Domain.Tests.Automatizados", "Banco.Domain.Tests.Automatizados\Banco.Domain.Tests.Automatizados.csproj", "{EE8ED0E6-480F-4DAD-B9A7-7AE9218A57B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculos.Tests", "Calculos.Tests\Calculos.Tests.csproj", "{48802C0A-7CF8-4A4D-9D36-A609443870C1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{588B2A6B-998E-4C8C-A0C0-BB075DF08FA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{588B2A6B-998E-4C8C-A0C0-BB075DF08FA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{588B2A6B-998E-4C8C-A0C0-BB075DF08FA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{588B2A6B-998E-4C8C-A0C0-BB075DF08FA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCC5F284-27DB-4C89-9A33-A20333F2BB68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCC5F284-27DB-4C89-9A33-A20333F2BB68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCC5F284-27DB-4C89-9A33-A20333F2BB68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCC5F284-27DB-4C89-9A33-A20333F2BB68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B015052-E887-4BC3-A1BD-316AFED45797}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B015052-E887-4BC3-A1BD-316AFED45797}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B015052-E887-4BC3-A1BD-316AFED45797}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B015052-E887-4BC3-A1BD-316AFED45797}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE8ED0E6-480F-4DAD-B9A7-7AE9218A57B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE8ED0E6-480F-4DAD-B9A7-7AE9218A57B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE8ED0E6-480F-4DAD-B9A7-7AE9218A57B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE8ED0E6-480F-4DAD-B9A7-7AE9218A57B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48802C0A-7CF8-4A4D-9D36-A609443870C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48802C0A-7CF8-4A4D-9D36-A609443870C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48802C0A-7CF8-4A4D-9D36-A609443870C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48802C0A-7CF8-4A4D-9D36-A609443870C1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{588B2A6B-998E-4C8C-A0C0-BB075DF08FA3} = {32B3C17D-F31B-4881-9B07-D3C9D51326AB}
+		{FCC5F284-27DB-4C89-9A33-A20333F2BB68} = {380E13BA-4E48-4D95-B7F5-2044E9D079D0}
+		{8B015052-E887-4BC3-A1BD-316AFED45797} = {380E13BA-4E48-4D95-B7F5-2044E9D079D0}
+		{EE8ED0E6-480F-4DAD-B9A7-7AE9218A57B3} = {380E13BA-4E48-4D95-B7F5-2044E9D079D0}
+		{48802C0A-7CF8-4A4D-9D36-A609443870C1} = {32B3C17D-F31B-4881-9B07-D3C9D51326AB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {90E56238-DF02-45BB-B991-5C256AD7C4A2}
+	EndGlobalSection
+EndGlobal
